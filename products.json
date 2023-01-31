@@ -1,0 +1,18 @@
+[
+    {
+      "name": "iphone",
+      "company": "apple",
+      "price": 6000000,
+      "createdAt": "",
+      "featured": true,
+      "rating" : 4.9
+    },
+    {
+        "name": "samsung",
+        "company": "apple",
+        "price": 6000000,
+        "createdAt": "",
+        "featured": true,
+        "rating" : 4.9
+      }
+  ]
