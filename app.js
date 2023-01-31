@@ -13,11 +13,7 @@ app.get('/', (req, res) => {
 })
 
 app.use("/api/products", products_routes);
-app.use(cors({
-    origin: "http://localhost:5173",
-    methods: ["GET", "POST", "PUT", "DELETE"]
-})
-);
+app.use(cors());
 
 const start = async () => {
     try {
