@@ -8,12 +8,12 @@ const PORT = process.env.PORT || 5000;
 
 const products_routes = require("./routes/products")
 
+app.use(cors());
 app.get('/', (req, res) => {
     res.send('Hi, I am live');
 })
 
 app.use("/api/products", products_routes);
-app.use(cors());
 
 const start = async () => {
     try {
